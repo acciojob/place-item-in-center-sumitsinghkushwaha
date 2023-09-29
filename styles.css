@@ -1,27 +1,19 @@
 
 /* Your CSS Code here. */
-/* Step 1: Set the holder to take full viewport width and height */
-html, body {
-  height: 100%;
-  margin: 0;
+.holder{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100vw;
+	height:100vh;
 }
 
-/* Ensure any parent containers of the holder have a height of 100% too */
-/* This is necessary to make sure the holder can take the full viewport height */
-/* For example, if you have nested containers, they should also be set to height: 100%; */
-
-/* Step 2: Use flexbox to center item-1 within the holder */
-.holder {
-  display: flex;
-  justify-content: center; /* Horizontally center item-1 */
-  align-items: center; /* Vertically center item-1 */
-  width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
-}
-
-/* Step 3: Style item-1 with the specified properties */
-.item-1 {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+#item-1{
+	width:100px;
+	height:100px;
+	background-color:red;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
 }
